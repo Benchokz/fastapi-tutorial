@@ -7,11 +7,11 @@ This is a simple example FastAPI application that pretends to be a bookstore.
 Log into your AWS account and create an EC2 instance (`t2.micro`), using the latest stable
 Ubuntu Linux AMI.
 
-[SSH into the instance](https://aws.amazon.com/blogs/compute/new-using-amazon-ec2-instance-connect-for-ssh-access-to-your-ec2-instances/) and run these commands to update the software repository and install
+Connect to your instance using Termius and run these commands to update the software repository and install
 our dependencies.
 
 ```bash
-sudo apt-get update
+sudo apt update -y
 sudo apt install -y python3-pip nginx
 ```
 
