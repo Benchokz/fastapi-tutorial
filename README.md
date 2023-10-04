@@ -24,7 +24,7 @@ git clone https://github.com/Benchokz/fastapi-tutorial.git
 Add the FastAPI configuration to NGINX's folder. Create a file called `fastapi_nginx` (like the one in this repository).
 
 ```bash
-sudo vim /etc/nginx/sites-enabled/fastapi_nginx
+sudo vi /etc/nginx/sites-enabled/fastapi_nginx
 ```
 
 And put this config into the file (replace the IP address with your EC2 instance's public IP):
